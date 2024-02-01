@@ -10,6 +10,8 @@ const FinalScore = document.querySelector("#final-score");
 const SubmitBt = document.querySelector("#submit");
 const InitialInp = document.querySelector("#initials");
 
+console.log(process.env.APIKey);
+
 var TimeLeft = 75;
 var Finished = false;
 var QuestionNumber = 1;
